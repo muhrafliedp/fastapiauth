@@ -2,6 +2,8 @@
 
 **Proses Authentication** pada Authorize dilakukan dengan memasukkan *Token*.
 
+_Jika menginginkan Proses Authentication pada Authorize dengan **memasukkan username dan password**, ada pada main.py hasil commit kedua._
+
 Token didapat dari `POST Generate Token`, dengan memasukkan username dan password yang sesuai. Jika tidak sesuai, token tidak akan keluar. Adapun, username dan password yang sesuai didapat dari `GET Get User`, yaitu username : “asdf”, password : “asdf”.
 Token yang dimasukkan mempengaruhi hak akses dari semua Endpoints _Proses_ Menu. 
 
