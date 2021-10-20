@@ -1,4 +1,6 @@
-# Fast API Authentication
+# Fast API Authentication 
+
+Hasil Deploy : `https://fast-api-muhrafliedp.herokuapp.com/docs`
 
 **Proses Authentication** pada Authorize dilakukan dengan memasukkan *Token*.
 
@@ -29,4 +31,5 @@ _POST_|`/menu/{item_name}/`|Menambah 1 menu berdasarkan nama item|_Protected_
 * Git clone project ini dengan `git clone https://github.com/muhrafliedp/fastapiauth.git`
 * Buat virtual environment dengan `Pipenv` atau `virtualenv`, kemudian aktifkan
 * Install seluruh requirements dengan `pip install -r requirements.txt`
-* Terakhir, jalankan API dengan `uvicorn main:app --reload`, dan lihatlah hasilnya pada browser anda `http://127.0.0.1:8000`
+* Terakhir, jalankan API dengan `uvicorn main:app --reload`, dan lihatlah hasilnya pada browser anda `http://127.0.0.1:8000/docs`
+* Atau jika ingin langsung menjalankan pada Heroku, silakan buka linknya pada `https://fast-api-muhrafliedp.herokuapp.com/docs`
